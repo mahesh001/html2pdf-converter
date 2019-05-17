@@ -1,0 +1,34 @@
+{
+  "name": "html2file-convertor",
+  "version": "1.0.0",
+  "description": "convert html file to pdf.",
+  "main": "./lib/api.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mahesh001/html2pdf-convertor.git"
+  },
+  "keywords": [
+    "html",
+    "pdf",
+    "handlebars",
+    "puppeteers",
+    "headless",
+    "browser"
+  ],
+  "author": "Mahesh Kumar Garhwal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mahesh001/html2pdf-convertor/issues"
+  },
+  "homepage": "https://github.com/mahesh001/html2pdf-convertor#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "handlebars": "^4.1.2",
+    "path": "^0.12.7",
+    "puppeteer": "^1.16.0",
+    "util": "^0.12.0"
+  }
+}
